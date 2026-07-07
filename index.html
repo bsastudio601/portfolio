@@ -7,26 +7,79 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-    <h1>My Personal Site</h1>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-    </nav>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>This is a brief introduction about myself.</p>
-    </section>
-    <section id="projects">
-        <h2>My Projects</h2>
-        <ul>
-            <li>Project 1: Description of project 1.</li>
-            <li>Project 2: Description of project 2.</li>
-            <li>Project 3: Description of project 3.</li>
-        </ul>
-    </section>
+    <div class = "box"> 
+        <main class = "allstuff">
+            <section id = "home" class = "page active">
+                <h1>Hi! I'm Aritro Halder</h1>
+                <p class = "desc1">A 3D artist and Maker.I'm interested in working 
+                    in creative projects and trying new things!
+                </p>
+                <div class = "socials">
+                    <a href = "#" target = "_blank">./Github</a>
+                    <a href = "#" target = "_blank">./Instagram</a>
+                    <a href = "#" target = "_blank">./Facebook</a>
+                </div>
 
+            </section>
+
+            <section id = "about" class = "page">
+                <h1>About Me</h1>
+                <p class = "desc2">I am a 3D artist and Maker. I have been working in
+                     the field of 3D art for the past 5 years. I have worked on various 
+                     projects and have gained a lot of experience in this field. 
+                     I am always looking for new opportunities to 
+                     learn and grow as an artist.
+                </p>
+            </section>
+
+            <section id = "projects" class = "page">
+                <h1>My Projects</h1>
+                <p class = "desc3">I have worked on various projects in the field of 3D art. 
+                    Some of my projects are listed below.
+                </p>
+            </section>
+
+            <section id = "blogs" class = "page">
+                <h1>My Blogs</h1>
+                <p class = "desc4">I have written various blogs on 3D art and related topics. 
+                    Some of my blogs are listed below.
+                </p>
+            </section>
+
+            <section id = "contact" class = "page">
+                <h1>Contact Me</h1>
+                <p class = "desc5">You can contact me via email or social media. 
+                    I am always open to new opportunities and collaborations.
+                </p>
+            </section>  
+
+            <nav class = "nav">
+                <a href = "#" class = "nav-btn active">
+                    <img src = "assets\icons\icons8-home-96.png" alt = "home" class = "icon">
+                    <span>Home</span>
+                </a>
+                <a href = "#about" class = "nav-btn">
+                    <img src = "assets\icons\icons8-person-96.png" alt = "about" class = "icon">
+                    <span>About</span>
+                </a>
+                <a href = "#projects" class = "nav-btn">
+                    <img src = "assets\icons\icons8-right-arrow-96.png" alt = "projects" class = "icon">
+                    <span>Projects</span>
+                </a>
+                <a href = "#blogs" class = "nav-btn">
+                    <img src = "assets\icons\icons8-book-96.png" alt = "blogs" class = "icon">
+                    <span>Blogs</span>
+                </a>
+                <a href = "#contact" class = "nav-btn">
+                    <img src = "assets\icons\icons8-mail-96.png" alt = "contact" class = "icon">
+                    <span>Contact</span>
+                </a>
+            </nav>
+
+        </main>
+    </div>
+
+    <script src = "script.js"></script>
     
 </body>
 </html>
