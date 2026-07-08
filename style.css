@@ -59,6 +59,12 @@ p{
     padding: 5px;
     max-width: 600px;
 }
+.pfp{
+    border-radius: 5px;
+    align-self: right;
+    height: 50px;
+    width: 50px;
+}
 
 
 
@@ -267,3 +273,101 @@ summary::-webkit-details-marker {
   transition: width 0.1s ease-out;
 }
 
+.blogcard{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    background-color: #ffffff;
+    padding: 8px;
+    border: #000000 2px solid;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+    max-width: 900px;
+}
+
+.blogcard a{
+    margin-left: auto;
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Bitcount Single', sans-serif;
+    font-size: 14px;
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.blogcard:hover{
+    border-color: #ff1e1e;
+    transform: scale(1.02);
+}
+.blogcard a:hover {
+    background-color: #ff1e1e;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.formboxbox {
+    display: flex;
+    justify-content: left;
+}
+.formbox{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    gap:15px;
+    max-width:900px;
+    margin-top:20px;
+    
+}
+.formbox input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid #000;
+    font-family:'Bitcount Single', sans-serif;
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+.formbox input:hover {
+    border-color: #ff1e1e;
+    color: #ffffff;
+    transform: scale(1.01);
+}
+.formbox textarea{
+    height: 100px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid #000;
+    font-family:'Bitcount Single', sans-serif;
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+
+}
+.formbox textarea:hover {
+    border-color: #ff1e1e;
+    color: #ffffff;
+    transform: scale(1.01);
+}
+
+.formbox button{
+
+        background-color: #000000;
+        color: #ffffff;
+        border: none;
+        height: 40px;
+        width: 100px;
+        padding: 10px;
+        border-radius: 5px;
+        font-family:'Bitcount Single', sans-serif;
+        align-self: center;
+        transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease ;
+}
+
+.formbox button:hover {
+    background-color: #ff1e1e;
+    color: #ffffff;
+    transform: scale(1.1);
+}

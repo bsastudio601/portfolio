@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aritro Halder</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type ="image/jpg" href = "assets/icons/favicon.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Geo:ital@0;1&family=Monda:wght@400..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
@@ -18,8 +19,9 @@
             <section id = "home" class = "page">
                 <h1>Hi! I'm <span class = "typing"><span class = "highlight-name">Aritro Halder</span></span></h1>
                 <p class = "desc1">A 3D artist and Maker.I'm interested in working 
-                    in creative projects and trying new things!
+                    on unique projects and trying new things!
                 </p>
+                
                 <div class = "socials">
                     <a href = "https://github.com/bsastudio601" target = "_blank">./Github</a>
                     <a href = "https://www.instagram.com/arthi_bsa_studio" target = "_blank">./Instagram</a>
@@ -30,19 +32,17 @@
 
             <section id = "about" class = "page">
                 <h1>About Me</h1>
-                <p class = "desc2">I am a 3D artist and Maker. I have been working in
-                     the field of 3D art for the past 5 years. I have worked on various 
-                     projects and have gained a lot of experience in this field. 
-                     I am always looking for new opportunities to 
-                     learn and grow as an artist.
+                <p class = "desc2">I'm a 16 year Game Developer and Maker from Bangladesh. I enjoy working on unique or thinking outside of the box projects.
+                    I also like Developing games, designing stylized 3D environment and buildign websites. Im always looking for new opportunities to explore!   
                 </p>
+                <p >Right now I'm developing A cozy low poly stylized game and open source projects.</p>
             </section>
 
             <section id = "projects" class = "page">
                 <h1>Selected Projects</h1>
                 <details class = "project-card">
                     <summary>
-                        <h2>Expandable weather station</h2>
+                        <h2>Expandable weather station ↓</h2>
                     </summary>
                     <p> A project i worked on in early 2025 for A national competetion. 
                         It's weather monitoring system that can be expanded through using multiple cheap ESP32 stations.
@@ -59,7 +59,7 @@
                 </details>
                 <details class = "project-card">
                     <summary>
-                        <h2>ESP32 Game Player</h2>
+                        <h2>ESP32 Game Player ↓</h2>
                     </summary>
                     <p> A retro game console build using ESP 32 and 1.3 inch OLED display.
                         It can run simple games like snake, tetris , breaker, space invaders. 
@@ -74,7 +74,7 @@
                 </details>
                 <details class = "project-card">
                     <summary>
-                        <h2>Remotepad</h2>
+                        <h2>Remotepad ↓</h2>
                     </summary>
                     <p> A 9 keyed macropad with a rotary encoder powered by RP2040. It is the first project i made for hackclub stardance!
                     </p>
@@ -90,16 +90,29 @@
 
             <section id = "blogs" class = "page">
                 <h1>My Blogs</h1>
-                <p class = "desc4">I have written various blogs on 3D art and related topics. 
-                    Some of my blogs are listed below.
+                <p class = "desc4">I have written various blogs on electronics, game developing, 3D art and other related topics.
                 </p>
+                <div class="blogcard"> 
+                    <h2> Making a cozy delivery game</h2>
+                    <a href="blogs/asimpledelivey.html">read</a>
+                </div>
+
             </section>
 
             <section id = "contact" class = "page">
                 <h1>Contact Me</h1>
-                <p class = "desc5">You can contact me via email or social media. 
-                    I am always open to new opportunities and collaborations.
+                <p class = "desc5">Email me here I will shortly be in touch !
                 </p>
+                <div class = "formboxbox">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="formbox">
+                        <input type="hidden" name="access_key" value="d9e76378-dd7d-43b0-abdd-bbf6ca3ad9fe">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" placeholder="anything i should know?"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                
             </section>  
 
             
@@ -107,6 +120,8 @@
         </main>
 
         <nav class = "nav">
+                <img src="assets/images/pfp.jpg" alt="my profile logo!" class = "pfp">
+
                 <a href = "#home" class = "nav-btn">
                     <img src = "assets\icons\icons8-home-96.png" class = "icon">
                     <span>Home</span>
