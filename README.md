@@ -13,6 +13,10 @@ A personal portfolio showcasing my projects, devlogs, and creative work.
 ![alt text](readme-assets/website-ss.png)
 ---
 
+## How I Made It
+
+I made is using HTML, CSS and JavaScript. VS code was the tool used. With live server extension I was able to preview the website. I used ChatGPT to give me hints on what command, functions, styling component to use after I explain it what I want to do.I also followed  quite a few youtube tutorials and the guide on stardance. I also used AI to formate this README.md
+
 ## Features
 
 * Retro-inspired design
@@ -22,6 +26,8 @@ A personal portfolio showcasing my projects, devlogs, and creative work.
 * Blog pages
 * Contact form
 * Hosted with GitHub Pages
+
+
 
 ---
 
