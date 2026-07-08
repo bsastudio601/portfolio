@@ -9,8 +9,8 @@ A personal portfolio showcasing my projects, devlogs, and creative work.
 
 > Replace this with a screenshot or GIF of your portfolio.
 
-
-![alt text](readme-assets/image.png)
+![alt text](readme-assets/website-demo.gif)
+![alt text](readme-assets/website-ss.png)
 ---
 
 ## Features
