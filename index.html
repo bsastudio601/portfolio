@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aritro Halder</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Monda:wght@400..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = "box"> 
-        <main class = "allstuff">
-            <section id = "home" class = "page active">
-                <h1>Hi! I'm Aritro Halder</h1>
+
+    <main class = "allstuff">
+            <section id = "home" class = "page">
+                <h1>Hi! I'm <span class = "highlight-name">Aritro Halder</span></h1>
                 <p class = "desc1">A 3D artist and Maker.I'm interested in working 
                     in creative projects and trying new things!
                 </p>
                 <div class = "socials">
-                    <a href = "#" target = "_blank">./Github</a>
-                    <a href = "#" target = "_blank">./Instagram</a>
-                    <a href = "#" target = "_blank">./Facebook</a>
+                    <a href = "https://github.com/bsastudio601" target = "_blank">./Github</a>
+                    <a href = "https://www.instagram.com/arthi_bsa_studio" target = "_blank">./Instagram</a>
+                    <a href = "https://www.facebook.com/arthi.halder.bsastudio" target = "_blank">./Facebook</a>
                 </div>
 
             </section>
@@ -33,10 +36,41 @@
             </section>
 
             <section id = "projects" class = "page">
-                <h1>My Projects</h1>
-                <p class = "desc3">I have worked on various projects in the field of 3D art. 
-                    Some of my projects are listed below.
-                </p>
+                <h1>Selected Projects</h1>
+                <details class = "project card">
+                    <summary>
+                        <h2>Expandable weather node</h2>
+                    </summary>
+                    <p class = "projectdesc">This is a project I worked on in 2020. It was a 3D model of a 
+                        character from a popular video game. I created the model using Blender and 
+                        textured it using Substance Painter.
+                    </p>
+                    <div class = "tags">
+                        <span class = "tag">CPP</span>
+                        <span class = "tag">PHP</span>
+                        <span class = "tag">HTML</span>
+                        <span class = "tag">JS</span>
+                        <span class = "tag">CSS</span>
+                    </div>
+                    <a href ="https://github.com/bsastudio601/Smart_Weather_Station" target = "_blank">Visit</a>
+                </details>
+                <details class = "project card">
+                    <summary>
+                        <h2>Expandable weather node</h2>
+                    </summary>
+                    <p class = "projectdesc">This is a project I worked on in 2020. It was a 3D model of a 
+                        character from a popular video game. I created the model using Blender and 
+                        textured it using Substance Painter.
+                    </p>
+                    <div class = "tags">
+                        <span class = "tag">CPP</span>
+                        <span class = "tag">PHP</span>
+                        <span class = "tag">HTML</span>
+                        <span class = "tag">JS</span>
+                        <span class = "tag">CSS</span>
+                    </div>
+                    <a href ="https://github.com/bsastudio601/Smart_Weather_Station" target = "_blank">Visit</a>
+                </details>
             </section>
 
             <section id = "blogs" class = "page">
@@ -53,31 +87,35 @@
                 </p>
             </section>  
 
-            <nav class = "nav">
-                <a href = "#" class = "nav-btn active">
-                    <img src = "assets\icons\icons8-home-96.png" alt = "home" class = "icon">
+            
+
+        </main>
+
+        <nav class = "nav">
+                <a href = "#home" class = "nav-btn">
+                    <img src = "assets\icons\icons8-home-96.png" class = "icon">
                     <span>Home</span>
                 </a>
                 <a href = "#about" class = "nav-btn">
-                    <img src = "assets\icons\icons8-person-96.png" alt = "about" class = "icon">
+                    <img src = "assets\icons\icons8-person-96.png" class = "icon">
                     <span>About</span>
                 </a>
                 <a href = "#projects" class = "nav-btn">
-                    <img src = "assets\icons\icons8-right-arrow-96.png" alt = "projects" class = "icon">
+                    <img src = "assets\icons\icons8-right-arrow-96.png" class = "icon">
                     <span>Projects</span>
                 </a>
                 <a href = "#blogs" class = "nav-btn">
-                    <img src = "assets\icons\icons8-book-96.png" alt = "blogs" class = "icon">
+                    <img src = "assets\icons\icons8-book-96.png" class = "icon">
                     <span>Blogs</span>
                 </a>
                 <a href = "#contact" class = "nav-btn">
-                    <img src = "assets\icons\icons8-mail-96.png" alt = "contact" class = "icon">
+                    <img src = "assets\icons\icons8-mail-96.png" class = "icon">
                     <span>Contact</span>
                 </a>
             </nav>
-
-        </main>
-    </div>
+    
+        
+    
 
     <script src = "script.js"></script>
     
