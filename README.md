@@ -11,8 +11,8 @@ Its made with Html, Css and Javascript!
 ## Screenshot And GIF 
 
 
-![alt text](readme-assets/website-demo.gif)
-![alt text](readme-assets/website-ss.png)
+![the gif of my site working](readme-assets/website-demo.gif)
+![the ss of my site](readme-assets/website-ss.png)
 
 
 
@@ -46,7 +46,7 @@ git clone https://github.com/bsastudio601/portfolio.git
 
 After opeing the folder just open index.html in your browser!
 
-Alternatively, if you have VS Code installed, you can use the Live Server extension to locally run the website!
+and , if you have VS Code installed, you can use the Live Server extension to locally run the website!
 
-Fell fre to change anything to make it your own!
+Feel free to change anything to make it your own!
 
